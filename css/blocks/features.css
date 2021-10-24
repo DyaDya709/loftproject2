@@ -1,0 +1,25 @@
+.feature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.features__item {
+  margin-right: 30px;
+}
+.features__item:last-child {
+  margin-right: 0;
+}
+
+.feature__icon-img {
+  width: 41px;
+  height: 41px;
+  background-color: black;
+}
+
+.feature__text {
+  font-size: 16px;
+  font-weight: 700;
+  min-width: 85px;
+  color: black;
+}
