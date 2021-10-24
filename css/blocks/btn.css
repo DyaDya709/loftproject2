@@ -1,4 +1,11 @@
 .btn {
   font-size: 16px;
   text-decoration: none;
+  font-weight: bold;
+  color: black;
+  padding: 21px 41px;
+  background-color: #fedb3f;
+  text-transform: uppercase;
+  border-radius: 100px;
+  line-height: 1;
 }
