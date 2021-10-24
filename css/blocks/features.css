@@ -1,4 +1,4 @@
-.feature {
+.features {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6,6 +6,13 @@
 
 .features__item {
   margin-right: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 142px;
 }
 .features__item:last-child {
   margin-right: 0;
@@ -15,6 +22,10 @@
   width: 41px;
   height: 41px;
   background-color: black;
+}
+
+.feature__icon {
+  margin-right: 11px;
 }
 
 .feature__text {
