@@ -10,7 +10,6 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    padding: 24px 0 65px auto;
 }
 
 .hero__title-section {
@@ -29,4 +28,8 @@
     font-size: 21px;
     margin-bottom: 28px;
     padding-right: 10%;
+}
+
+.hero__icon-section {
+    margin-bottom: 65px;
 }

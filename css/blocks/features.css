@@ -21,7 +21,6 @@
 .feature__icon-img {
   width: 41px;
   height: 41px;
-  background-color: black;
 }
 
 .feature__icon {
@@ -32,5 +31,4 @@
   font-size: 16px;
   font-weight: 700;
   min-width: 85px;
-  color: black;
 }
