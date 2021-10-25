@@ -2,6 +2,11 @@
     text-align: center;
 }
 
+.benefit__title {
+    color: $textTitleBaseColor;
+    font-weight: 700;
+}
+
 .benefit__image--wrapper {
     display: inline-block;
     width: 128px;

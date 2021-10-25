@@ -4,11 +4,25 @@
 
 .benefits__item {
     flex: 1; // все элепенты занимаются равное пространство
-    margin: 0 3%;
-    &:first-child {
-        margin-left: 0;
+    padding: 0 3%;
+    position: relative;
+
+    &::before {
+        content: url(../img/separator.png);
+        position: absolute;
+        top: 50px;
+        right: 0;
+        transform: translateX(50%);
     }
+
+    &:first-child {
+        padding-left: 0;
+    }
+
     &:last-child {
-        margin-left: 0;
+        padding-left: 0;
+        &::before {
+            display: none;
+        }
     }
 }
