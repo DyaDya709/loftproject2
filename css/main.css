@@ -69,7 +69,7 @@ img {
 }
 
 .hero {
-  background: url(/Progect2/img/BgHero.png) center/cover no-repeat;
+  background: url(../img/BgHero.png) center/cover no-repeat;
   height: 100vh;
   min-height: 650px;
   color: #fff;
