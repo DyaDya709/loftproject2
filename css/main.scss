@@ -1,0 +1,16 @@
+@import "./blocks/vars";
+//normalize 
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css);
+
+//setup
+@import "./blocks/layout";
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;700&display=swap');
+
+//blocks
+@import "./blocks/hero";
+@import "./blocks/_header";
+@import "./blocks/_logo";
+@import "./blocks/_menu";
+@import "./blocks/_phone-number";
+@import "./blocks/_features";
+@import "./blocks/_btn";
