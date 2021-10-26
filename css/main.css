@@ -336,8 +336,8 @@ img {
 
 .reviews__display {
   background: #f8faf9;
-  padding: 42px;
-  max-width: 940px;
+  width: 940px;
+  padding: 42px 0;
   margin-bottom: 15px;
 }
 
