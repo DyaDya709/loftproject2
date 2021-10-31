@@ -10,5 +10,15 @@
     text-transform: uppercase;
     border-radius: 100px;
     line-height: 1;
+    border: none;
+    cursor: pointer;
+    &--theme--transparent {
+        background-color:transparent;
+        color: #fff;
+        text-transform: none;
+        font-size: 18px;
+        font-weight: normal;
+    }
     
 }
+

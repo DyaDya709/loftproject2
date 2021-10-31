@@ -28,6 +28,7 @@
     position: relative;
     border-radius: 50%;
     background: #fff; 
+    margin-right: 10px;
     &::before {
         content: "";
         display: none;
@@ -42,3 +43,6 @@
     }
 }
 
+.radio__title {
+    margin-right: 12px;
+}
