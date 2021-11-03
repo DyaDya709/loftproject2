@@ -70,7 +70,7 @@ img {
 }
 
 .hero {
-  background: url(../img/BgHero.png) center/cover no-repeat;
+  background: url(../img/bgHero.png) center/cover no-repeat;
   height: inherit;
 }
 
