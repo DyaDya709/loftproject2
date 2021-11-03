@@ -71,9 +71,7 @@ img {
 
 .hero {
   background: url(../img/BgHero.png) center/cover no-repeat;
-  height: 100vh;
-  min-height: 650px;
-  color: #fff;
+  height: inherit;
 }
 
 .hero__container {
