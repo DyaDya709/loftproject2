@@ -2,6 +2,9 @@
    display: flex;
    align-items: center; 
    justify-content: space-between;
+   @include tablets {
+       display: none;
+   }
 }
 
 .menu__list {
@@ -10,7 +13,7 @@
 }
 
 .menu__item {
-    margin-right: 15px;
+    margin-right: rem(15px);
     &:last-child {
         margin-right: 0;
     }

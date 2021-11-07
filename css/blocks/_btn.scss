@@ -1,14 +1,14 @@
 .btn {
     display: block;
-    width: 156px;
-    font-size: 16px;
+    width: rem(156px);
+    font-size: rem(16px);
     text-decoration: none;
     font-weight: bold;
     color: black;
-    padding: 21px 41px;
+    padding: rem(21px) rem(41px);
     background-color: #fedb3f;
     text-transform: uppercase;
-    border-radius: 100px;
+    border-radius: rem(100px);
     line-height: 1;
     border: none;
     cursor: pointer;
@@ -16,7 +16,7 @@
         background-color:transparent;
         color: #fff;
         text-transform: none;
-        font-size: 18px;
+        font-size: rem(18px);
         font-weight: normal;
     }
     

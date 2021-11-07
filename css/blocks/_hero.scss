@@ -8,23 +8,37 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    padding: 24px 0 65px 0;
+    padding: rem(24px) 0 rem(65px) 0;
 }
 
 .hero__title-section {
     width: 46%;
+    @include tablets {
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.hero__icon-section {
+    @include tablets {
+        display: none;
+    }
 }
 
 .hero__main-title {
-    font-size: 48px;
+    font-size: rem(48px);
     line-height: 1;
     font-weight: 700;
-    margin-bottom: 15px;
+    margin-bottom: rem(15px);
     text-transform: uppercase;
 }
 
 .hero__title-desc {
-    font-size: 21px;
-    margin-bottom: 28px;
+    font-size: rem(21px);
+    margin-bottom: rem(28px);
     padding-right: 10%;
 }

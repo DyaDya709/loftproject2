@@ -1,4 +1,6 @@
 @import "./blocks/vars";
+@import "./media";
+
 //normalize 
 @import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css);
 
@@ -7,21 +9,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;700&display=swap');
 
 //blocks
-@import "./blocks/_hero";
-@import "./blocks/_header";
-@import "./blocks/_logo";
-@import "./blocks/_menu";
-@import "./blocks/_phone-number";
-@import "./blocks/_features";
-@import "./blocks/_btn";
-@import "./blocks/_section";
-@import "./blocks/_headline";
-@import "./blocks/_benefits";
-@import "./blocks/_benefit";
-@import "./blocks/_reviews";
-@import "./blocks/_interactive-avatar";
-@import "./blocks/_order-section";
-@import "./blocks/_form";
-@import "./blocks/_radio";
-@import "./blocks/_fixed-menu";
-
+@import "./blocks/hero";
+@import "./blocks/header";
+@import "./blocks/logo";
+@import "./blocks/menu";
+@import "./blocks/phone-number";
+@import "./blocks/features";
+@import "./blocks/btn";
+@import "./blocks/section";
+@import "./blocks/headline";
+@import "./blocks/benefits";
+@import "./blocks/benefit";
+@import "./blocks/reviews";
+@import "./blocks/interactive-avatar";
+@import "./blocks/order-section";
+@import "./blocks/form";
+@import "./blocks/radio";
+@import "./blocks/fixed-menu";

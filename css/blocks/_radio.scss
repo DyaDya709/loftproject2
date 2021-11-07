@@ -5,7 +5,7 @@
 
     &--checkbox {
        .radio__visible {
-           border-radius: 5px;
+           border-radius: rem(5px);
            &::before {
                background: url(../img/checkmark.png) center center no-repeat;
            }
@@ -23,17 +23,17 @@
 }
 
 .radio__visible {
-    width: 25px;
-    height: 25px;
+    width: rem(25px);
+    height: rem(25px);
     position: relative;
     border-radius: 50%;
     background: #fff; 
-    margin-right: 10px;
+    margin-right: rem(10px);
     &::before {
         content: "";
         display: none;
-        width: 13px;
-        height: 13px;
+        width: rem(13px);
+        height: rem(13px);
         border-radius: 50%;
         background: #FEDB3F; 
         position: absolute;
@@ -44,5 +44,5 @@
 }
 
 .radio__title {
-    margin-right: 12px;
+    margin-right: rem(12px);
 }
