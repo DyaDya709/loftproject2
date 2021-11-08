@@ -27,6 +27,15 @@
             display: none;
         }
     }
+    @include tablets { 
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin-bottom: 31px;
+        &::before {
+            content: "";
+        }
+    }
     @include phones { 
         display: flex;
         flex-direction: row;
@@ -42,12 +51,19 @@
 }
 
 .benefit__image {
+    @include tablets {
+        margin-bottom: 20px;
+    }
+    
     @include phones { 
-        margin-right: 12px;;
+        margin-right: 12px;
     }
 }
 
 .benefit__text {
+    @include tablets { 
+        text-align: center;
+    }
     @include phones { 
         text-align: left;
     }

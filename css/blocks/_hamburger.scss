@@ -5,6 +5,9 @@
     flex-direction: column;
     justify-content: space-between;
     display: none;
+    @include tablets {
+        display: inline-flex;
+    }
     @include phones {
         display: inline-flex;
     }
