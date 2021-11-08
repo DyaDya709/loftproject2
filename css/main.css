@@ -631,6 +631,11 @@ img {
 .form__col:last-child {
   margin-right: 0;
 }
+@media screen and (max-width: 480px) {
+  .form__col {
+    margin-right: 0;
+  }
+}
 
 .form__row {
   display: -webkit-box;
