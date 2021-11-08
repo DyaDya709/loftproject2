@@ -1,5 +1,8 @@
 .form {
     display: flex;
+    @include phones {
+        flex-direction: column;
+    }
 }
 
 .form__col {
@@ -45,8 +48,14 @@
     &--margin {
         margin-bottom: rem(40px);
     }
+    @include phones {
+        justify-content: center;
+    }
 }
 
 .form__btns {
     display: flex;
+    @include phones {
+        justify-content: center;
+    }
 }

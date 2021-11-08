@@ -21,7 +21,7 @@
     }
 }
 
-.reviews_avatar {
+.reviews__avatar {
     width: rem(253px);
     height: rem(264px);
 
@@ -51,6 +51,9 @@
 .reviews__text {
     margin-bottom: rem(36px);
     width: rem(463px);
+    @include phones { 
+        padding: 0 40px;
+    }
 }
 
 .reviews_author {
