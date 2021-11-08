@@ -1,12 +1,14 @@
 .benefits {
     display: flex;
+    @include phones {
+        flex-direction: column;
+    }
 }
 
 .benefits__item {
     flex: 1; // все элепенты занимаются равное пространство
     padding: 0 3%;
     position: relative;
-
     &::before {
         content: url(../img/separator.png);
         position: absolute;
@@ -24,5 +26,29 @@
         &::before {
             display: none;
         }
+    }
+    @include phones { 
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin-bottom: 31px;
+        &::before {
+            content: "";
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.benefit__image {
+    @include phones { 
+        margin-right: 12px;;
+    }
+}
+
+.benefit__text {
+    @include phones { 
+        text-align: left;
     }
 }

@@ -2,7 +2,7 @@
 html {
     font-size: $baseFontSize;
    
-    @include tablets {
+    @include phones {
         font-size: $baseFontSize - 1px;
     }
     @include phones {
@@ -70,6 +70,7 @@ footer {
 
 a {
     color: inherit;
+    white-space: nowrap;
 }
 
 img {
