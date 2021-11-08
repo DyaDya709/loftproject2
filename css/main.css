@@ -414,6 +414,7 @@ img {
 }
 @media screen and (max-width: 768px) {
   .section {
+    height: 100vh;
     min-height: 90vh;
   }
 }
